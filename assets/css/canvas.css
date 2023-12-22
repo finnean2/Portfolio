@@ -13,7 +13,7 @@ html, body {
 }
 
 #stats {
-  position: absolute;
+  position: absolute; 
   right: 10px;
   top: 10px;
 }
@@ -38,7 +38,7 @@ html, body {
   color: #fff;
   width: 220px;
   left: 0px;
-  z-index: 11;
+  z-index: 50;
   top: 20px;
 }
 .info:hover {
@@ -103,4 +103,9 @@ html, body {
   text-transform: uppercase;
   margin-right: 10px;
   font-size: 10px;
+}
+@media only screen and (max-width: 600px) {
+  info {
+    align-items: center;
+  }
 }
