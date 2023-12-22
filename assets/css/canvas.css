@@ -7,8 +7,9 @@ html, body {
 #container {
   background: #111;
   position: absolute;
-  left: 50%;
   top: 50%;
+  z-index: 10;
+  left:50%;
 }
 
 #stats {
@@ -37,6 +38,7 @@ html, body {
   color: #fff;
   width: 220px;
   left: 0px;
+  z-index: 11;
   top: 20px;
 }
 .info:hover {
